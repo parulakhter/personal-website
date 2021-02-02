@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    max-width: 1152px;   
+    margin: 0 150px;
+    margin:25px 100px;
+    justify-content: flex-end;
+    display: flex;    
+}
+.navbar a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 14px 16px;
+    color: rgb(94, 93, 93);
+    text-align: center;
+    font-weight: 600;    
+}
+.half-width{
+    width: 45%;
+    display:inline-block;       
+}
+.half-width img{
+    width: 100%;
+}
+.top-part{
+    display: flex;
+    align-items: center;
+}
+.special{
+    padding-left: 100px;
+}
+.half-width h1{
+    color: #480564;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+.half-width p{        
+    color: dimgray;
+    margin-top: 10px;
+}
+.name-highlighting{
+    color: #ff1e76;
+}
