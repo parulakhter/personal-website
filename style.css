@@ -29,7 +29,7 @@ body{
     display: flex;
     align-items: center;
 }
-.special{
+#special{
     padding-left: 100px;
 }
 .half-width h1{
@@ -52,11 +52,17 @@ body{
     padding: 15px 40px;
     border-radius: 5px;    
 }
-.half-width h2{
+.purple-highlight{
     color: #40035c;
     font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
 }
-.about{
-    margin-right: 100px;
-    padding-left: 100px; 
+.about{        
+    flex: 1;
+    padding-left: 45px;   
 }
+#bio{
+   margin-right: 200px;
+}
+
+
