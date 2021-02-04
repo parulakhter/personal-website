@@ -42,7 +42,7 @@ body{
     color: dimgray;
     margin-bottom: 40px;   
 }
-.name-highlighting{
+.megenta-highlighting{
     color: #ff1e76;
 }
 .link-button{
@@ -53,7 +53,7 @@ body{
     border-radius: 5px;    
 }
 .purple-highlight{
-    color: #40035c;
+    color: #470366;
     font-size: 48px;
     font-family: 'Bebas Neue', cursive;
 }
@@ -64,5 +64,72 @@ body{
 #bio{
    margin-right: 200px;
 }
+.project-heading{    
+    margin: auto;
+    padding: 50px 0;    
+}
+.project-area{
+    background-color: #F8F9FC;
+    margin-top: 50px;
+}
+.project-work{
+    width: 25%;
+    box-shadow: 2px  2px 15px rgb(185, 184, 184);
+    margin: 0 30px 120px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.project-work h3{
+    color: #470366;
+}
+.project-work img{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin: 100px auto;
+    width: 906px;
+    height: 225px;
+    background-image: url(images/Group_33094_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;    
+}
+.container img{
+    width: 100%;
+}
+.inquiry{
+    margin: 0 50px;   
+}
+.inquiry p{
+    color: white;
+    font-size: 64px;
+    font-family: 'Bebas Neue', cursive;
+}
+.footer p{
+    color: lightslategray;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #470366;
+    text-align: center;
+}
+.footer img{
+    width: 40px;
+    padding-right: 30px;
+    margin-bottom: 100px;
+}
+
 
 
